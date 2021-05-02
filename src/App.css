@@ -1,42 +1,32 @@
-/* CHAT STYLES */
 * {
-    font-family: sans-serif;
+  font-family: "Gill Sans", sans-serif !important;
     letter-spacing: 0.5px;
   }
-  
-  .ce-chat-list {
-    background-color: #FFFAF0 !important;
-  }
-  
+    
   .ce-chats-container {
-    background-color: #FFFAF0 !important;
+    background-color: white ;
   }
   
   .ce-active-chat-card {
-    background-color: #fcd1d8 !important;
-    border: 3px solid #FFFAF0 !important;
-    border-radius: 0px !important;
+    background-color: #ebd6da !important;
   }
   
   .ce-chat-subtitle-text {
-    color: #595959 !important;
+    color: #383838 ;
   }
   
   .ce-chat-form-container {
-    padding-bottom: 20px !important;
-    background-color: #FFFAF0;
+    padding-bottom: 20px ;
+    background-color: #f3f3f3;
   }
-  
-  .ce-text-input {
-    border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
-  }
+
   
   .ce-primary-button {
-    border-radius: 6px !important;
-    background-color: #C71585 !important;
     position: relative;
     bottom: 1px;
+    margin-right: -8px !important;
+    border-radius: 6px !important;
+    background-color: #ebd6da !important;
   }
   
   .ce-danger-button {
@@ -45,7 +35,7 @@
   }
   
   .ce-settings {
-    background-color: #FFFAF0 !important;
+    background-color: #f3f3f3 !important;
   }
   
   .ce-autocomplete-input {
@@ -66,20 +56,18 @@
   .ce-chat-avatars-row {
     display: none !important;
   }
-  
-  /* CUSTOM FEED */
-  
+    
   .chat-feed {
     height: 100%;
     width: 100%;
     overflow: scroll;
-    background-color: #FFFAF0;
+    background-color: #f3f3f3;
   }
   
   .chat-title-container {
-    width: calc(100% - 36px);
+    width: calc(100% - 10px);
     padding: 18px;
-    text-align: center;
+    text-align: center !important;
   }
   
   .chat-title {
@@ -89,9 +77,9 @@
   }
   
   .chat-subtitle {
-    color: #FFA07A;
-    font-weight: 600;
-    font-size: 12px;
+    color: #b66197;
+    font-weight: 300;
+    font-size: 14px;
     padding-top: 4px;
   }
   
@@ -157,7 +145,7 @@
     bottom: 0px;
     width: calc(100% - 36px);
     padding: 18px;
-    background-color: #FFFAF0;
+    background-color: #f3f3f3;
   }
   
   .message-form {
